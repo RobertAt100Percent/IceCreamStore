@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ice Cream Store</title>
+
+    <style>
+        /*this is simply to */
+        .SameLine{
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Ice Cream Store
+    </h1>
+
+    <label for="lblNumOfScoops">Number of scoops</label>
+    <input type="text" name="txtNumOfScoops" id="txtNumOfScoops">
+
+    <br>
+    <br>
+
+    <input type="radio" id="rdCone">
+    <label for="lblCone">Cone</label>
+    
+    <input type="radio" id="rdCup">
+    <label for="lblCup">Cup</label>
+
+    <p>Toppings</p>
+
+    <form action="#">
+        <input type="checkbox" name="Sprinkles" id="Sprinkles">
+        <label for="lblSprinkels">Sprinkles ($0.50)</label>
+    
+        <input type="checkbox" name="WhippedCream" id="WhippedCream">
+        <label for="lblWhippedCream">Whipped Cream ($0.25)</label>
+    
+        <br>
+    
+        <input type="checkbox" name="HotFudge" id="HotFudge">
+        <label for="lblHotFudge">Hot Fudge ($1.25)</label>
+    
+        <input type="checkbox" name="Cherry" id="Cherry">
+        <label for="lblCherry">Cherry ($0.25)</label>    
+    
+        <br><br>
+        <button type="button" id="btnSubmit">
+            Submit order
+        </button>
+    
+    </form>
+
+    <p class="SameLine">
+        Base Price: 
+    </p>
+    <p class="SameLine" id="BasePrice">
+        $00.00
+    </p>
+
+    <br>
+    <p class="SameLine">
+        Tax: 
+    </p>
+    <p class="SameLine" id="Tax">
+        $00.00
+    </p>
+
+    <br>
+    <p class="SameLine">
+        Total Due: 
+    </p>
+    <p class="SameLine" id="TotalDue">
+        $00.00
+    </p>
+
+</body>
+</html>
